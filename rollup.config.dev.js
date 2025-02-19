@@ -6,7 +6,7 @@ import { terser } from "rollup-plugin-terser";
 import json from '@rollup/plugin-json';
 
 export default {
-  input: ["src/energy-gauge-bundle-card.ts"],
+  input: ["src/energy-gauge-custom-card.ts"],
   output: {
     dir: "./dist",
     format: "es",

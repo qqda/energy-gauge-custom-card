@@ -1,11 +1,11 @@
-# Energy Gauge Bundle Card
+# Energy Gauge Custom Card
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/flixlix/energy-gauge-bundle-card?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/flixlix/energy-gauge-custom-card?style=flat-square)
 [![ko-fi support](https://img.shields.io/badge/support-me-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/flixlix)
-![GitHub total downloads](https://img.shields.io/github/downloads/flixlix/energy-gauge-bundle-card/total?style=flat-square)
-![commit_activity](https://img.shields.io/github/commit-activity/y/flixlix/energy-gauge-bundle-card?color=brightgreen&label=Commits&style=flat-square)
+![GitHub total downloads](https://img.shields.io/github/downloads/flixlix/energy-gauge-custom-card/total?style=flat-square)
+![commit_activity](https://img.shields.io/github/commit-activity/y/flixlix/energy-gauge-custom-card?color=brightgreen&label=Commits&style=flat-square)
 
-![Hero Image](https://github.com/flixlix/energy-gauge-bundle-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab)
+![Hero Image](https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab)
 
 ## Goal
 
@@ -31,23 +31,23 @@ To install this:
 - Click on `Frontend`
 - Click on the overflow Menu (three vertical dots)
 - Click on `Custom Repositories`
-- Type this URL [https://github.com/flixlix/energy-gauge-bundle-card](https://github.com/flixlix/energy-gauge-bundle-card)
+- Type this URL [https://github.com/flixlix/energy-gauge-custom-card](https://github.com/flixlix/energy-gauge-custom-card)
 - In "Category", select `lovelace`
 - Install via UI
 
 <details>  <summary>Manual Install</summary>
 
-1. Download and copy `energy-gauge-bundle-card.js` from the [latest release](https://github.com/flixlix/energy-gauge-bundle-card/releases/latest) into your `config/www` directory.
+1. Download and copy `energy-gauge-custom-card.js` from the [latest release](https://github.com/flixlix/energy-gauge-custom-card/releases/latest) into your `config/www` directory.
 
 2. Add the resource reference as decribed below.
 
 ### Add resource reference
 
-If you configure Dashboards via YAML, add a reference to `energy-gauge-bundle-card.js` inside your `configuration.yaml`:
+If you configure Dashboards via YAML, add a reference to `energy-gauge-custom-card.js` inside your `configuration.yaml`:
 
 ```yaml
 resources:
-  - url: /local/energy-gauge-bundle-card.js
+  - url: /local/energy-gauge-custom-card.js
     type: module
 ```
 
@@ -58,8 +58,8 @@ Else, if you prefer the graphical editor, use the menu to add the resource:
 3. Click three dot icon
 4. Select Resources
 5. Hit (+ ADD RESOURCE) icon
-6. Enter URL `/local/energy-gauge-bundle-card.js` and select type "JavaScript Module".
-   (Use `/hacsfiles/energy-gauge-bundle-card/energy-gauge-bundle-card.js` and select "JavaScript Module" for HACS install if HACS didn't do it already)
+6. Enter URL `/local/energy-gauge-custom-card.js` and select type "JavaScript Module".
+   (Use `/hacsfiles/energy-gauge-custom-card/energy-gauge-custom-card.js` and select "JavaScript Module" for HACS install if HACS didn't do it already)
  
 </details>
    
@@ -76,7 +76,7 @@ To configure this card, only the type is required, making it very easy to get st
 
 | Name                | Type      |   Default    | Description                                                                                                                                                                  |
 |---------------------| --------- |:------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| type                | `string`  | **required** | `custom:energy-gauge-bundle-card`. |
+| type                | `string`  | **required** | `custom:energy-gauge-custom-card`. |
 | title               | `string`  | undefined    | The title of the card. |
 | entity     | `string`  | undefined | Any entity in your HA. Note that this will only be used for to open the more info dialog on a tap. |
 | clickable | `boolean` | false | If set to `true`, the card will be clickable and open the more info dialog on a tap. |
@@ -110,16 +110,16 @@ To configure this card, only the type is required, making it very easy to get st
 
 ### Example Configurations
 
-<img width="1322" alt="Basic Configuration" src="https://github.com/flixlix/energy-gauge-bundle-card/assets/61006057/1fabb3c5-75bd-4255-8d7c-df1681f8c2f5">
+<img width="1322" alt="Basic Configuration" src="https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/1fabb3c5-75bd-4255-8d7c-df1681f8c2f5">
 
 ```yaml
-type: custom:energy-gauge-bundle-card
+type: custom:energy-gauge-custom-card
 ```
 <hr/>
-<img width="1322" alt="Self Consumption Without Severity (All Values at Max)" src="https://github.com/flixlix/energy-gauge-bundle-card/assets/61006057/1d5b0dc7-76a0-464d-ae26-6e06715a9f92">
+<img width="1322" alt="Self Consumption Without Severity (All Values at Max)" src="https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/1d5b0dc7-76a0-464d-ae26-6e06715a9f92">
 
 ```yaml
-type: custom:energy-gauge-bundle-card
+type: custom:energy-gauge-custom-card
 gauge_type: self_consumption
 needle: true
 min: 0

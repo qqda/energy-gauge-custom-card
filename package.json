@@ -1,7 +1,7 @@
 {
-  "name": "energy-gauge-bundle-card",
+  "name": "energy-gauge-custom-card",
   "version": "0.0.3",
-  "description": "Energy Gauge Bundle Card",
+  "description": "Energy Gauge Custom Card",
   "keywords": [
     "home-assistant",
     "homeassistant",
@@ -11,8 +11,8 @@
     "custom-cards",
     "dashboard"
   ],
-  "module": "energy-gauge-bundle-card.js",
-  "repository": "git@github.com:flixlix/energy-gauge-bundle-card.git",
+  "module": "energy-gauge-custom-card.js",
+  "repository": "git@github.com:flixlix/energy-gauge-custom-card.git",
   "author": "Luca Félix <luca.ziegler.felix@gmail.com>",
   "dependencies": {
     "@material/mwc-button": "^0.27.0",

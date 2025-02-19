@@ -47,6 +47,8 @@ export class EnergyGaugeBundleCard extends SubscribeMixin(LitElement) implements
   @state() private decimals = 1;
   @state() private name?: string;
   @state() private tooltip?: string;
+  //@state() private energy_consumed?: string;
+  
 
   protected hassSubscribeRequiredHostProps = ['_config'];
 
@@ -124,10 +126,16 @@ export class EnergyGaugeBundleCard extends SubscribeMixin(LitElement) implements
         )) ??
       0;
 
-    const consumptionFromGrid =
+    const consumptionFromGrid_old =
       calculateStatisticsSumGrowth(
         this._data.stats,
         types.grid[0].flow_from.map(flow => flow.stat_energy_from),
+      ) ?? 0;
+
+    const consumptionFromGrid =
+      calculateStatisticsSumGrowth(
+        this._data.stats,
+        [this._config.energy_consumed],  // custom entity this._config.energy_consumed
       ) ?? 0;
 
     const totalConsumption: number =

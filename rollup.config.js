@@ -36,7 +36,7 @@ const plugins = [
 
 export default [
   {
-    input: ['src/energy-gauge-bundle-card.ts'],
+    input: ['src/energy-gauge-custom-card.ts'],
     output: {
       dir: 'dist',
       format: 'es',
@@ -55,7 +55,7 @@ export default [
       commonjs(),
       babel({
         exclude: "node_modules/**",
-        babelHelpers: "bundled",
+        babelHelpers: "customd",
       }),
       ...(dev ? [serve(serveOptions)] : [terser()]),
     ],

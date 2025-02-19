@@ -8,7 +8,7 @@ import { EnergyCardBaseConfig } from '../type/energy-card-base-config';
 import { any, assert, assign, boolean, integer, number, object, optional, string } from 'superstruct';
 import { localize } from '../localize/localize';
 import memoizeOne from 'memoize-one';
-import { EnergyGaugeBundleCardConfig } from '../energy-gauge-bundle-card-config';
+import { EnergyGaugeCustomCardConfig } from '../energy-gauge-custom-card-config';
 import { SchemaUnion } from './types/schema-union';
 
 export const loadHaForm = async () => {
@@ -21,13 +21,13 @@ export const loadHaForm = async () => {
   await card.getConfigElement();
 };
 
-@customElement('energy-gauge-bundle-card-editor')
-export class EnergyGaugeBundleCardEditor extends LitElement implements LovelaceCardEditor {
+@customElement('energy-gauge-custom-card-editor')
+export class EnergyGaugeCustomCardEditor extends LitElement implements LovelaceCardEditor {
   @property({ attribute: false }) public hass!: HomeAssistant;
-  @state() private _config?: EnergyGaugeBundleCardConfig;
+  @state() private _config?: EnergyGaugeCustomCardConfig;
   @state() private showOther = false;
 
-  public async setConfig(config: EnergyGaugeBundleCardConfig): Promise<void> {
+  public async setConfig(config: EnergyGaugeCustomCardConfig): Promise<void> {
     assert(
       config,
       assign(
@@ -295,6 +295,6 @@ export class EnergyGaugeBundleCardEditor extends LitElement implements LovelaceC
 
 declare global {
   interface HTMLElementTagNameMap {
-    'energy-gauge-bundle-card-editor': EnergyGaugeBundleCardEditor;
+    'energy-gauge-custom-card-editor': EnergyGaugeCustomCardEditor;
   }
 }

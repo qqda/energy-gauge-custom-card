@@ -1,7 +1,7 @@
 import { ActionConfig, BaseActionConfig, HapticType, LovelaceCard, LovelaceCardConfig, LovelaceCardEditor } from 'custom-card-helpers';
 import { HassEntity, HassServiceTarget } from 'home-assistant-js-websocket';
 import { UNIT_PREFIXES } from './const';
-import { Severities } from './energy-gauge-bundle-card-config';
+import { Severities } from './energy-gauge-custom-card-config';
 import { TemplateResult } from 'lit';
 
 declare global {
@@ -31,6 +31,7 @@ export interface EntityConfig {
   color_below?: string;
   color_limit?: number;
   tap_action?: ActionConfigExtended;
+
   // @deprecated
   remaining?:
     | string

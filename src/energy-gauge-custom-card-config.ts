@@ -1,7 +1,7 @@
 import { LovelaceCardConfig } from 'custom-card-helpers';
 import { EnergyCardBaseConfig } from './type/energy-card-base-config';
 
-export interface EnergyGaugeBundleCardConfig extends LovelaceCardConfig, EnergyCardBaseConfig {
+export interface EnergyGaugeCustomCardConfig extends LovelaceCardConfig, EnergyCardBaseConfig {
   entity?: string;
   gauge_type?: string;
   min?: number;
@@ -18,6 +18,7 @@ export interface EnergyGaugeBundleCardConfig extends LovelaceCardConfig, EnergyC
   name?: string;
   tooltip?: string;
   clickable?: boolean;
+  energy_consumed: string;
 }
 
 export interface Severities {

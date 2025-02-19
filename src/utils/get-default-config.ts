@@ -1,5 +1,5 @@
 import { HomeAssistant } from 'custom-card-helpers';
-import { EnergyFlowCardPlusConfig } from '../energy-gauge-bundle-card-config';
+import { EnergyFlowCardPlusConfig } from '../energy-gauge-custom-card-config';
 
 export const defaultValues = {
   maxFlowRate: 6,
