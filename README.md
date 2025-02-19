@@ -1,11 +1,11 @@
 # Energy Gauge Custom Card
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/qqda/energy-gauge-custom-card?style=flat-square)
-[![ko-fi support](https://img.shields.io/badge/support-me-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/flixlix)
-![GitHub total downloads](https://img.shields.io/github/downloads/qqda/energy-gauge-custom-card/total?style=flat-square)
-![commit_activity](https://img.shields.io/github/commit-activity/y/qqda/energy-gauge-custom-card?color=brightgreen&label=Commits&style=flat-square)
+[![ko-fi support](https://img.shields.io/badge/support-author-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/flixlix)
+<!-- ![GitHub total downloads](https://img.shields.io/github/downloads/qqda/energy-gauge-custom-card/total?style=flat-square) -->
+<!-- ![commit_activity](https://img.shields.io/github/commit-activity/y/qqda/energy-gauge-custom-card?color=brightgreen&label=Commits&style=flat-square) -->
 
-![Hero Image](https://github.com/qqda/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab)
+<!-- ![Hero Image](https://github.com/qqda/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab) -->
 
 ## Goal
 This is a modified version of https://github.com/qqda/energy-gauge-custom-card with configurable energy entities.
