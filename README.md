@@ -1,3 +1,8 @@
+# energy-gauge-custom-card
+
+This is a modified version of https://github.com/flixlix/energy-gauge-bundle-card with configurable energy entities.
+
+
 # Energy Gauge Custom Card
 
 <!-- ![GitHub release (latest by date)](https://img.shields.io/github/v/release/qqda/energy-gauge-custom-card?style=flat-square) -->
@@ -8,8 +13,6 @@
 <!-- ![Hero Image](https://github.com/qqda/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab) -->
 
 ## Goal
-This is a modified version of https://github.com/flixlix/energy-gauge-bundle-card with configurable energy entities.
-
 This card aims to offer a customizable gauge visualization for Home Assistant that displays various types of information, such as "autarky" or "self-consumption". If you have a new idea on a new `gauge type` feel free to submit a Feature Request, explaining the new type, or even better, a Pull Request, implementing this type.
 
 > What's the difference from this card to the official Gauge Card?
