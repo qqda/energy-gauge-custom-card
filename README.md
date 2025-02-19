@@ -1,13 +1,14 @@
 # Energy Gauge Custom Card
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/flixlix/energy-gauge-custom-card?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/qqda/energy-gauge-custom-card?style=flat-square)
 [![ko-fi support](https://img.shields.io/badge/support-me-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/flixlix)
-![GitHub total downloads](https://img.shields.io/github/downloads/flixlix/energy-gauge-custom-card/total?style=flat-square)
-![commit_activity](https://img.shields.io/github/commit-activity/y/flixlix/energy-gauge-custom-card?color=brightgreen&label=Commits&style=flat-square)
+![GitHub total downloads](https://img.shields.io/github/downloads/qqda/energy-gauge-custom-card/total?style=flat-square)
+![commit_activity](https://img.shields.io/github/commit-activity/y/qqda/energy-gauge-custom-card?color=brightgreen&label=Commits&style=flat-square)
 
-![Hero Image](https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab)
+![Hero Image](https://github.com/qqda/energy-gauge-custom-card/assets/61006057/f18357b2-e42e-4a98-b429-ad44f18399ab)
 
 ## Goal
+This is a modified version of https://github.com/qqda/energy-gauge-custom-card with configurable energy entities.
 
 This card aims to offer a customizable gauge visualization for Home Assistant that displays various types of information, such as "autarky" or "self-consumption". If you have a new idea on a new `gauge type` feel free to submit a Feature Request, explaining the new type, or even better, a Pull Request, implementing this type.
 
@@ -31,13 +32,13 @@ To install this:
 - Click on `Frontend`
 - Click on the overflow Menu (three vertical dots)
 - Click on `Custom Repositories`
-- Type this URL [https://github.com/flixlix/energy-gauge-custom-card](https://github.com/flixlix/energy-gauge-custom-card)
+- Type this URL [https://github.com/qqda/energy-gauge-custom-card](https://github.com/qqda/energy-gauge-custom-card)
 - In "Category", select `lovelace`
 - Install via UI
 
 <details>  <summary>Manual Install</summary>
 
-1. Download and copy `energy-gauge-custom-card.js` from the [latest release](https://github.com/flixlix/energy-gauge-custom-card/releases/latest) into your `config/www` directory.
+1. Download and copy `energy-gauge-custom-card.js` from the [latest release](https://github.com/qqda/energy-gauge-custom-card/releases/latest) into your `config/www` directory.
 
 2. Add the resource reference as decribed below.
 
@@ -110,13 +111,13 @@ To configure this card, only the type is required, making it very easy to get st
 
 ### Example Configurations
 
-<img width="1322" alt="Basic Configuration" src="https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/1fabb3c5-75bd-4255-8d7c-df1681f8c2f5">
+<img width="1322" alt="Basic Configuration" src="https://github.com/qqda/energy-gauge-custom-card/assets/61006057/1fabb3c5-75bd-4255-8d7c-df1681f8c2f5">
 
 ```yaml
 type: custom:energy-gauge-custom-card
 ```
 <hr/>
-<img width="1322" alt="Self Consumption Without Severity (All Values at Max)" src="https://github.com/flixlix/energy-gauge-custom-card/assets/61006057/1d5b0dc7-76a0-464d-ae26-6e06715a9f92">
+<img width="1322" alt="Self Consumption Without Severity (All Values at Max)" src="https://github.com/qqda/energy-gauge-custom-card/assets/61006057/1d5b0dc7-76a0-464d-ae26-6e06715a9f92">
 
 ```yaml
 type: custom:energy-gauge-custom-card

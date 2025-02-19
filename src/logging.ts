@@ -4,7 +4,7 @@ import { version } from '../package.json';
 
 // Log Version
 console.groupCollapsed(`%c⚡ Energy Gauge Custom Card v${version} is installed`, 'color: #488fc2; font-weight: bold');
-console.log('Readme:', 'https://github.com/flixlix/energy-gauge-custom-card');
+console.log('Readme:', 'https://github.com/qqda/energy-gauge-custom-card');
 console.groupEnd();
 
 export const logError = debounce((error: string) => {

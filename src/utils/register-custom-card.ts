@@ -12,6 +12,6 @@ export function registerCustomCard(params: RegisterCardParams) {
     windowWithCards.customCards.push({
         ...params,
         preview: true,
-        documentationURL: `https://github.com/flixlix/energy-gauge-custom-card`,
+        documentationURL: `https://github.com/qqda/energy-gauge-custom-card`,
     });
 }

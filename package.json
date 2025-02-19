@@ -12,8 +12,8 @@
     "dashboard"
   ],
   "module": "energy-gauge-custom-card.js",
-  "repository": "git@github.com:flixlix/energy-gauge-custom-card.git",
-  "author": "Luca Félix <luca.ziegler.felix@gmail.com>",
+  "repository": "git@github.com:qqda/energy-gauge-custom-card.git",
+  "author": "flixlix,qqda",
   "dependencies": {
     "@material/mwc-button": "^0.27.0",
     "@material/mwc-dialog": "^0.27.0",
