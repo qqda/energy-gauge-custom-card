@@ -1,7 +1,7 @@
 # energy-gauge-custom-card
 
 This is a modified version of https://github.com/flixlix/energy-gauge-bundle-card with configurable energy entities.
-
+Experimental Version - do not use !
 
 # Energy Gauge Custom Card
 
